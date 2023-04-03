@@ -17,5 +17,5 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-
-echo 'src-git liuran001 https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
+git clone https://github.com/v2rayA/v2raya-openwrt package/v2raya-openwrt
+git clone https://github.com/liuran001/openwrt-packages package/openwrt-packages
